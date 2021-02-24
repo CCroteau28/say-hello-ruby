@@ -1,8 +1,8 @@
-# I call on the method, say_hello, and give it the string "Gabriela" 
-def say_hello("Gabriela")
+# I call on the method, say_hello, and give it the string "Gabriela"
+def say_hello(name ="Ruby Programmer")
 
 # The method prints this text to the screen:
-puts "Hello #{Gabriela}!"
+    puts "Hello #{name}!" 
 end
 
 say_hello()
